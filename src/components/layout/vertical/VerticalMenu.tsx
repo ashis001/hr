@@ -127,10 +127,8 @@ const VerticalMenu = ({ scrollMenu }: { scrollMenu: (container: any, isPerfectSc
             Email
           </MenuItem>
           <MenuItem
-            href={`${process.env.NEXT_PUBLIC_PRO_URL}/apps/chat`}
+            href='/chat'
             icon={<i className='ri-wechat-line' />}
-            suffix={<Chip label='Pro' size='small' color='primary' variant='tonal' />}
-            target='_blank'
           >
             Chat
           </MenuItem>
